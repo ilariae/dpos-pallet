@@ -167,12 +167,8 @@ By implementing a defense window, the system ensures that validators have a fair
 - **Genesis Build**: The `BuildGenesisConfig` trait is implemented for the `GenesisConfig` struct. This implementation defines how the genesis configuration is applied when the blockchain is initialized.
 - **Initialization Function**: The `initialize_validators` function sets the initial state of the validators and their stakes based on the genesis configuration.
 
-# Compromises and Improvements
 
-### Compromises
-In the interest of meeting project deadlines and ensuring core functionality, I made several compromises during the development of this DPoS pallet. The sorting mechanism for selecting validators is basic, prioritising simplicity over efficiency. The slashing mechanism currently slashes the entire stake of a misbehaving validator, providing a straightforward but less advanced mechanism. The reward distribution mechanism uses a fixed rate, ignoring dynamic factors such as network conditions and validator reputation. Additionally, automated reward distribution was chosen over a more flexible claim-based system. Handling active validators unregistering immediately without waiting for the end of an epoch, and the lack of batch processing for delegator payments, were other compromises I made to streamline the initial implementation. 
-
-### Improvements
+# Improvements
 - Implementing a more efficient sorting algorithm and storage mechanism for potential validators to optimize performance. 
 - Make reward distribution dynamic, adjusting based on network conditions, validator performance, and block size.
 	- Implementing a reputation system for validators will score them based on performance, honesty, and reliability, offering higher rewards to high-performing, reputable validators. 	
