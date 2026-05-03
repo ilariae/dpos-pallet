@@ -1,6 +1,6 @@
 [package]
 name = "pba-runtime"
-description = "A solochain runtime template built with Substrate, part of Polkadot Sdk. (polkadot v1.11.0)"
+description = "Runtime integration for a custom Substrate DPoS pallet project."
 version = "0.1.0"
 license = "MIT-0"
 authors.workspace = true

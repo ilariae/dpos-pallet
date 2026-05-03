@@ -1,8 +1,8 @@
 [workspace.package]
 license = "MIT-0"
-authors = ["Parity Technologies <admin@parity.io>"]
-homepage = "https://substrate.io"
-repository = "https://github.com/paritytech/polkadot-sdk-minimal-template.git"
+authors = ["Ilaria Enache"]
+homepage = "https://github.com/ilariae/dpos-pallet"
+repository = "https://github.com/ilariae/dpos-pallet"
 edition = "2021"
 
 [workspace]

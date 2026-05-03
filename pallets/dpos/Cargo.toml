@@ -1,12 +1,12 @@
 [package]
 name = "pallet-dpos"
 version = "4.0.0-dev"
-description = "FRAME pallet template for defining custom runtime logic."
-authors = ["Substrate DevHub <https://github.com/substrate-developer-hub>"]
-homepage = "https://substrate.io"
+description = "A custom Substrate pallet implementing Delegated Proof of Stake with validator selection, delegation, epoch rewards, and basic slashing."
+authors = ["Ilaria Enache"]
+homepage = "https://github.com/ilariae/dpos-pallet"
 edition = "2021"
 publish = false
-repository = "https://github.com/substrate-developer-hub/substrate-node-template/"
+repository = "https://github.com/ilariae/dpos-pallet"
 
 [package.metadata.docs.rs]
 targets = ["x86_64-unknown-linux-gnu"]
